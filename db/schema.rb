@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2024_02_05_074709) do
+ActiveRecord::Schema[7.0].define(version: 2024_02_05_080749) do
   create_table "answers", charset: "utf8mb4", force: :cascade do |t|
     t.integer "question_id"
     t.text "content"
